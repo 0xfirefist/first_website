@@ -111,7 +111,7 @@ footer{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-
+  margin-bottom: 2%;
 }
 .zocial-twitter{
   padding: 8%;
