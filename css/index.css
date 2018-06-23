@@ -4,6 +4,7 @@
 [class*="zocial-"]:before {
   font-family: 'zocial', sans-serif;
   font-size: 200%;
+  text-decoration: none;
 }
 span{
   color: #601fa5;

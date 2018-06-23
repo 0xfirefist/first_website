@@ -1,0 +1,74 @@
+@import url(http://weloveiconfonts.com/api/?family=iconicfill);
+@media screen and (max-width:500px)
+{
+  [class*="iconicfill-"]:before {
+  font-family: 'IconicFill', sans-serif;
+  }
+  .hamburger{
+    font-size: 2em;
+    cursor: pointer;
+    position: relative;
+    top: 1.1em;
+    left: 12em;
+  }
+  span:hover{
+    color: white;
+  }
+  input{
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+
+  header{
+    display: flex;
+    color:#cdf2e0;
+  }
+  header h1{
+    order: 1;
+    height: 1em;
+  }
+  input{
+    order:2;
+  }
+  header div{
+    order:3;
+    display: none;
+    flex-grow: 0;
+    position: relative;
+    top: 4.5em;
+    left: 5em;
+    border-radius: 0.5em;
+  }
+
+  header div h2{
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    padding: 0;
+    color:#91969e;
+  }
+  header div h2:hover{
+    color:#925bbf;
+  }
+  input[type=checkbox]:checked ~ div{
+    display: block;
+    background-color: white;
+
+  }
+}
+@media screen  and (max-width:350px){
+  .hamburger {
+    left: 8.5em;
+  }
+}
+@media screen  and (max-width:400px){
+  .hamburger {
+    left:9.5em;
+  }
+}
+@media screen  and (max-width:450px){
+  .hamburger {
+    left: 10.5em;
+  }
+}
