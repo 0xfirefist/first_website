@@ -5,31 +5,75 @@
   <meta name="viewport" content="width=device-width,initial scale=1">
   <title>
   </title>
+    <link href="bootstrap3/css2/bootstrap.min.css" rel="stylesheet">
+    <link href="css/projects.css" rel="stylesheet">
+    <style>
+      @import url(http://weloveiconfonts.com/api/?family=fontawesome);
+      [class*="fontawesome-"]:before {
+        font-family: 'FontAwesome', sans-serif;
+      }
+    </style>
 </head>
 
 <body>
 
   <header>
-    <ul>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">LUMOS</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">PROJECTS</a></li>
+            <li><a href="photo.html">PHOTOGRAPHY<span class="sr-only">(current)</span></a></li>
+            <li><a href="about.html">ABOUT</a></li>
+          </ul>
+
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
   </header>
 
-  <div>
+  <div style="background-image:url(images/projects/projects.jpeg)">
   </div>
 
   <section>
+    <h1 class="text-center">projects</h1>
+    <div class="container-fluid">
+      <div class="row">
+        <a href="project1.html"><div class="col-xs-4 col-sm-3 col-md-2 col-md-offset-1 col-sm-offset-1 col-xs-offset-4 text-center landscape">
+          <h3>project1</h3>
+          </div>
+        </a>
+        <a href="project1.html"><div class="col-xs-4 col-sm-3 col-md-2 col-md-offset-2 col-sm-offset-1 col-xs-offset-4 text-center sketches">
+          <h3>project2</h3>
+          </div>
+        </a>
+        <a href="project1.html"><div class="col-xs-4 col-sm-3 col-md-2 col-md-offset-2 col-sm-offset-1 col-xs-offset-4 text-center portrait">
+          <h3>project3</h3>
+         </div>
+        </a>
+      </div>
+    </div>
   </section>
 
   <footer>
-    <a href="http://www.twitter.com"><span class=""></span></a>
-    <a href="http://www.facebook.com"><span class=""></span></a>
-    <a href="http://www.youtube.com"><span class=""></span></a>
-    <a href="http://www.instagram.com"><span class=""></span></a>
+    <a href="http://www.twitter.com" class="col-xs-1 col-xs-offset-1"><span class="fontawesome-twitter"></span></a>
+    <a href="http://www.facebook.com" class="col-xs-1 col-xs-offset-2"><span class="fontawesome-facebook-sign"></span></a>
+    <a href="http://www.youtube.com" class="col-xs-1 col-xs-offset-2"><span class="fontawesome-play"></span></a>
+    <a href="http://www.instagram.com" class="col-xs-1 col-xs-offset-2"><span class="fontawesome-camera"></span></a>
   </footer>
-
+  <script src="js2/bootstrap.js"></script>
+  <script src="js/jquery.js"></script>
 </body>
 </html>

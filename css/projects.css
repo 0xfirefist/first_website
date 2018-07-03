@@ -1,0 +1,82 @@
+nav{
+  margin-bottom: 0px !important;
+  background-color: blueviolet !important;
+}
+nav div div a{
+  color:white !important;
+}
+nav div div a:hover{
+  color: black !important;
+}
+body > div{
+  height: 75%;
+  background-attachment: fixed;
+}
+.landscape{
+  background-image: url(../images/projects/projects1.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  height: 15em;
+  width: 15em;
+  color: white;
+  transition: width 0.5s , height 0.5s;
+}
+.landscape h3{
+  padding-top: 70%;
+}
+.sketches{
+  background-image: url(../images/projects/projects2.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  height: 15em;
+  width: 15em;
+  color: black;
+  transition: width 0.5s , height 0.5s;
+}
+.sketches h3{
+  padding-top: 70%;
+}
+.portrait{
+  background-image: url(../images/projects/projects3.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  height: 15em;
+  width: 15em;
+  color: white;
+  transition: width 0.5s , height 0.5s;
+}
+.portrait h3{
+  padding-top: 70%;
+}
+footer{
+  background-color:blueviolet;
+  margin-top: 1em;
+  height: 3em;
+}
+footer a{
+  font-size: 2em;
+  text-decoration: none;
+  color:white;
+}
+footer a:hover{
+  text-decoration: none;
+  color:black;
+}
+.landscape:hover , .portrait:hover , .sketches:hover {
+  width:15.5em;
+  height: 15.5em;
+}
+
+section h1{
+  margin: 1em;
+  color: blueviolet;
+}
+
+section div div a{
+  text-decoration: none;
+  transition: filter 1s;
+}
+section div div a:hover{
+  text-decoration: none;
+  filter: blur(2px) !important;
+}

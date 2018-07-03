@@ -1,0 +1,52 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+  font-size: 100%;
+  text-decoration: none;
+}
+
+nav{
+  margin-bottom: 0px !important;
+  background-color: blueviolet !important;
+}
+nav div div a{
+  color:white !important;
+}
+nav div div a:hover{
+  color: black !important;
+}
+body>div{
+  background-image: url(../images/photography/portrait/portrait0.jpg);
+  width: 100;
+  height: 80%;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 2em;
+}
+footer{
+  background-color:blueviolet;
+  margin-top: 1em;
+  height: 3em;
+}
+footer a{
+  font-size: 2em;
+  text-decoration: none;
+  color:white;
+}
+footer a:hover{
+  text-decoration: none;
+  color:black;
+}
+footer a span{
+  padding: 0.5em;
+}
+section div div div div img {
+  width: 100%;
+  height: 100%;
+}
+.model-dialog{
+  margin: 0 !important;
+  background-color: gray !important;
+}

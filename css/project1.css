@@ -1,0 +1,32 @@
+nav{
+  margin-bottom: 0px !important;
+  background-color: blueviolet !important;
+}
+nav div div a{
+  color:white !important;
+}
+nav div div a:hover{
+  color: black !important;
+}
+footer{
+  background-color:blueviolet;
+  margin-top: 1em;
+  height: 3em;
+}
+footer a{
+  font-size: 2em;
+  text-decoration: none;
+  color:white;
+}
+footer a:hover{
+  text-decoration: none;
+  color:black;
+}
+section div div div img{
+  height: 80%;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+}

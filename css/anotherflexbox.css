@@ -9,7 +9,7 @@
     cursor: pointer;
     position: relative;
     top: 1.1em;
-    left: 12em;
+    left:7em;
   }
   span:hover{
     color: white;
@@ -52,23 +52,24 @@
     color:#925bbf;
   }
   input[type=checkbox]:checked ~ div{
-    display: block;
+    display: block !important;
     background-color: white;
 
   }
 }
-@media screen  and (max-width:350px){
-  .hamburger {
-    left: 8.5em;
-  }
-}
-@media screen  and (max-width:400px){
-  .hamburger {
-    left:9.5em;
-  }
-}
 @media screen  and (max-width:450px){
   .hamburger {
-    left: 10.5em;
+    left: 6em;
+  }
+}
+
+@media screen  and (max-width:400px){
+  .hamburger {
+    left: 5em;
+  }
+}
+@media screen  and (max-width:360px){
+  .hamburger {
+    left: 4em;
   }
 }

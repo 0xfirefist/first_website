@@ -5,31 +5,76 @@
   <meta name="viewport" content="width=device-width,initial scale=1">
   <title>
   </title>
+  <link href="bootstrap3/css2/bootstrap.min.css" rel="stylesheet">
+  <link href="css/project1.css" rel="stylesheet">
+  <style>
+    @import url(http://weloveiconfonts.com/api/?family=fontawesome);
+    [class*="fontawesome-"]:before {
+      font-family: 'FontAwesome', sans-serif;
+    }
+  </style>
+
+
 </head>
 
 <body>
 
   <header>
-    <ul>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">LUMOS</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">PROJECTS</a></li>
+            <li><a href="photo.html">PHOTOGRAPHY<span class="sr-only">(current)</span></a></li>
+            <li><a href="about.html">ABOUT</a></li>
+          </ul>
+
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+      <div style="background-color:skyblue;margin-top:0.5em;margin-bottom:0.5em;height:6em;padding-top:2em;margin-left:1em;margin-left:2em;margin-right:2em;" class="text-center">
+        <h1 style="color:white;margin:0;">PROJECT</h1>
+      </div>
+    </nav>
+
   </header>
 
   <div>
   </div>
 
   <section>
+    <p class="text-center" style="margin:2em;">Fusce metus libero, egestas eget arcu nec, consequat feugiat ligula. Mauris vitae nibh nulla. Donec in mi ante. Nulla tincidunt vulputate lacus vitae hendrerit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam risus lorem, mollis at volutpat eget, sollicitudin iaculis lorem. Pellentesque fringilla fringilla metus, nec cursus tellus sollicitudin ac. Morbi viverra tellus enim, ut interdum sem hendrerit a. Etiam mi felis, ultrices quis lobortis at, scelerisque at diam.
+    </p>
+    <div class="container">
+      <div class="row">
+        <div><img class="img-responsive" src="images/projects/projects.jpeg"></div>
+        <div><img class="img-responsive" src="images/projects/projects1.jpg"></div>
+        <div><img class="img-responsive" src="images/projects/projects2.jpg"></div>
+        <div><img class="img-responsive" src="images/projects/projects3.jpg"></div>
+        <div><img class="img-responsive" src="images/projects/projects4.jpg"></div>
+      </div>
+    </div>
   </section>
 
   <footer>
-    <a href="http://www.twitter.com"><span class=""></span></a>
-    <a href="http://www.facebook.com"><span class=""></span></a>
-    <a href="http://www.youtube.com"><span class=""></span></a>
-    <a href="http://www.instagram.com"><span class=""></span></a>
+    <a href="http://www.twitter.com" class="col-xs-1 col-xs-offset-1"><span class="fontawesome-twitter"></span></a>
+    <a href="http://www.facebook.com" class="col-xs-1 col-xs-offset-2"><span class="fontawesome-facebook-sign"></span></a>
+    <a href="http://www.youtube.com" class="col-xs-1 col-xs-offset-2"><span class="fontawesome-play"></span></a>
+    <a href="http://www.instagram.com" class="col-xs-1 col-xs-offset-2"><span class="fontawesome-camera"></span></a>
   </footer>
+  <script src="js2/bootstrap.js"></script>
+  <script src="js/jquery.js"></script>
 
 </body>
 </html>
